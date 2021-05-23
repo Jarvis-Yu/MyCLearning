@@ -22,3 +22,10 @@ long long | 64   | 64    | 64    | 64
 64-bit systems:
  - *LLP64* or 4/4/8: Win64 API
  - *LP64* or 4/8/8: Unix, Linux, and MAC OS X
+
+# stdint.h
+
+one can define the size by using `stdint.h`
+
+e.g. *uint8_t* gives 8-bit unsigned int (8/16/32/64)
+e.g. *int8_t* gives 8-bit signed int (8/16/32/64)
