@@ -66,3 +66,7 @@ int main(void) {
   return 0;
 }
 ```
+
+# bit operation
+
+<<, >>, &, |, ~(not)
