@@ -1,6 +1,6 @@
 CC	= gcc
 CFLAGS	= -g -Wall 
-BUILD	= 
+BUILD	= printBinary 
 
 all:	$(BUILD)
 clean:

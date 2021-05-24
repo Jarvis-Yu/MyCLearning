@@ -37,12 +37,32 @@ char buffer[50];
 int ret = scanf("%s", buffer);
 assert(ret == 1);
 ```
-in this case, by inputing a string longer than 50 chars may overwrite sth you don't want to be overwrited. use `"%50s` will be safer
+in this case, by inputing a string longer than 50 chars may overwrite sth you don't want to be overwrited. use `%50s` will be safer
 
 ## fgets()
 
 read a string from an input stream
 
+## example
+
+```
+char buf[100];
+int size = sizeof(buf);
+fgets(buf, size, stdin);
+```
+
 ## getchar()
 
 reads a single char from stdin
+
+## fprintf
+
+```
+#include <stdio.h>
+
+int main(void) {
+  fprintf(stdout, "Hello standard out!\n");
+  fprintf(stderr, "Hello standard error!\n");
+  return 0;
+}
+```
