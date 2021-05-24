@@ -1,6 +1,6 @@
 CC	= gcc
 CFLAGS	= -g -Wall 
-BUILD	= enum byRef basicHeap static asciiToInt 
+BUILD	= exp 
 
 all:	$(BUILD)
 clean:
