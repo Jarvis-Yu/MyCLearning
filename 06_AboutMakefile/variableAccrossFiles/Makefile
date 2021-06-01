@@ -1,10 +1,10 @@
 CC	= gcc
-CFLAGS	= -g -Wall 
-BUILD	= exp 
+CFLAGS	= -g -Wall -pedantic
+BUILD	= main
 
 all:	$(BUILD)
 clean:
 	/bin/rm -f $(BUILD) *.o core
 .PHONY:	clean
 
-exp:	type.o regFun.o
+main:	magic.o
