@@ -1,3 +1,5 @@
+# Content not all original
+
 # Some Recommanded Reading
 
 C: A Reference Manual: Samuel P. Harbison, Guy L. Steele. Prentice Hall.
